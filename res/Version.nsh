@@ -1,0 +1,6 @@
+!define _VERSION "1.0.0.7"
+!define _COMPANY ""
+!define _PRODUCT "Taschenrechner"
+!define _COPYRIGHT "© 2018 unattended.ch"
+!define _COMMENT "Taschenrechner"
+!define _INTERNAL "Tasch1"
