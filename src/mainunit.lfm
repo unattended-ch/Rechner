@@ -2,12 +2,12 @@ object Form1: TForm1
   Left = 465
   Height = 383
   Top = 201
-  Width = 274
+  Width = 306
   BorderIcons = [biSystemMenu]
   BorderStyle = bsSingle
   Caption = 'Calculator'
-  ClientHeight = 363
-  ClientWidth = 274
+  ClientHeight = 358
+  ClientWidth = 306
   Font.CharSet = ANSI_CHARSET
   Font.Height = -13
   Font.Name = 'Arial'
@@ -18,23 +18,23 @@ object Form1: TForm1
   OnCreate = FormCreate
   OnKeyPress = FormKeyPress
   Position = poScreenCenter
-  LCLVersion = '1.6.0.4'
+  LCLVersion = '2.0.8.0'
   object Panel1: TPanel
     Cursor = crHandPoint
-    Left = 30
+    Left = 45
     Height = 113
     Top = 24
-    Width = 216
+    Width = 217
     BevelOuter = bvNone
     BorderStyle = bsSingle
-    ClientHeight = 109
-    ClientWidth = 212
+    ClientHeight = 111
+    ClientWidth = 215
     TabOrder = 0
     object Eingabe: TMemo
       Left = 0
       Height = 81
       Top = 0
-      Width = 212
+      Width = 215
       Align = alTop
       BorderStyle = bsNone
       Lines.Strings = (
@@ -47,10 +47,10 @@ object Form1: TForm1
     end
     object Resultat: TEdit
       Left = 0
-      Height = 29
+      Height = 35
       Hint = 'Result'
-      Top = 80
-      Width = 212
+      Top = 76
+      Width = 215
       Align = alBottom
       Alignment = taRightJustify
       BorderStyle = bsNone
@@ -70,7 +70,7 @@ object Form1: TForm1
   end
   object Button1: TButton
     Cursor = crHandPoint
-    Left = 28
+    Left = 45
     Height = 32
     Top = 273
     Width = 38
@@ -87,7 +87,7 @@ object Form1: TForm1
   end
   object Button0: TButton
     Cursor = crHandPoint
-    Left = 28
+    Left = 45
     Height = 32
     Top = 305
     Width = 81
@@ -104,7 +104,7 @@ object Form1: TForm1
   end
   object Button2: TButton
     Cursor = crHandPoint
-    Left = 71
+    Left = 88
     Height = 32
     Top = 272
     Width = 38
@@ -121,7 +121,7 @@ object Form1: TForm1
   end
   object Button3: TButton
     Cursor = crHandPoint
-    Left = 116
+    Left = 133
     Height = 32
     Top = 272
     Width = 38
@@ -138,7 +138,7 @@ object Form1: TForm1
   end
   object ButtonDot: TButton
     Cursor = crHandPoint
-    Left = 116
+    Left = 133
     Height = 32
     Top = 304
     Width = 38
@@ -155,7 +155,7 @@ object Form1: TForm1
   end
   object Button4: TButton
     Cursor = crHandPoint
-    Left = 28
+    Left = 45
     Height = 32
     Top = 241
     Width = 38
@@ -172,7 +172,7 @@ object Form1: TForm1
   end
   object Button5: TButton
     Cursor = crHandPoint
-    Left = 71
+    Left = 88
     Height = 32
     Top = 240
     Width = 38
@@ -189,7 +189,7 @@ object Form1: TForm1
   end
   object Button6: TButton
     Cursor = crHandPoint
-    Left = 116
+    Left = 133
     Height = 32
     Top = 240
     Width = 38
@@ -206,7 +206,7 @@ object Form1: TForm1
   end
   object Button7: TButton
     Cursor = crHandPoint
-    Left = 28
+    Left = 45
     Height = 32
     Top = 209
     Width = 38
@@ -223,7 +223,7 @@ object Form1: TForm1
   end
   object Button8: TButton
     Cursor = crHandPoint
-    Left = 71
+    Left = 88
     Height = 32
     Top = 208
     Width = 38
@@ -240,7 +240,7 @@ object Form1: TForm1
   end
   object Button9: TButton
     Cursor = crHandPoint
-    Left = 116
+    Left = 133
     Height = 32
     Top = 208
     Width = 38
@@ -257,7 +257,7 @@ object Form1: TForm1
   end
   object ButtonAdd: TButton
     Cursor = crHandPoint
-    Left = 162
+    Left = 179
     Height = 32
     Hint = 'Addition'
     Top = 304
@@ -277,7 +277,7 @@ object Form1: TForm1
   end
   object ButtonSub: TButton
     Cursor = crHandPoint
-    Left = 162
+    Left = 179
     Height = 32
     Hint = 'Subtraction'
     Top = 272
@@ -297,7 +297,7 @@ object Form1: TForm1
   end
   object ButtonMul: TButton
     Cursor = crHandPoint
-    Left = 162
+    Left = 179
     Height = 32
     Hint = 'Multiplication'
     Top = 240
@@ -317,7 +317,7 @@ object Form1: TForm1
   end
   object ButtonDiv: TButton
     Cursor = crHandPoint
-    Left = 162
+    Left = 179
     Height = 32
     Hint = 'Division'
     Top = 208
@@ -337,7 +337,7 @@ object Form1: TForm1
   end
   object ButtonBack: TButton
     Cursor = crHandPoint
-    Left = 28
+    Left = 45
     Height = 32
     Top = 177
     Width = 38
@@ -353,7 +353,7 @@ object Form1: TForm1
   end
   object ButtonMemClear: TButton
     Cursor = crHandPoint
-    Left = 28
+    Left = 45
     Height = 32
     Hint = 'Clear memory'
     Top = 144
@@ -373,7 +373,7 @@ object Form1: TForm1
   end
   object ButtonMemRestore: TButton
     Cursor = crHandPoint
-    Left = 71
+    Left = 88
     Height = 32
     Hint = 'Load from Memory'
     Top = 144
@@ -393,7 +393,7 @@ object Form1: TForm1
   end
   object ButtonMemStore: TButton
     Cursor = crHandPoint
-    Left = 116
+    Left = 133
     Height = 32
     Hint = 'Save to Memory'
     Top = 144
@@ -413,7 +413,7 @@ object Form1: TForm1
   end
   object ButtonMemAdd: TButton
     Cursor = crHandPoint
-    Left = 162
+    Left = 179
     Height = 32
     Hint = 'Add to Memory'
     Top = 144
@@ -433,7 +433,7 @@ object Form1: TForm1
   end
   object ButtonMemSub: TButton
     Cursor = crHandPoint
-    Left = 208
+    Left = 225
     Height = 32
     Hint = 'Subtract from Memory'
     Top = 144
@@ -453,7 +453,7 @@ object Form1: TForm1
   end
   object ButtonEqual: TButton
     Cursor = crHandPoint
-    Left = 208
+    Left = 225
     Height = 65
     Top = 273
     Width = 38
@@ -470,7 +470,7 @@ object Form1: TForm1
   end
   object ButtonClear: TButton
     Cursor = crHandPoint
-    Left = 71
+    Left = 88
     Height = 32
     Hint = 'Clear last entry'
     Top = 176
@@ -490,7 +490,7 @@ object Form1: TForm1
   end
   object ButtonClearAll: TButton
     Cursor = crHandPoint
-    Left = 116
+    Left = 133
     Height = 32
     Hint = 'Clear all'
     Top = 176
@@ -510,7 +510,7 @@ object Form1: TForm1
   end
   object ButtonSign: TButton
     Cursor = crHandPoint
-    Left = 162
+    Left = 179
     Height = 32
     Hint = 'Change sign'
     Top = 176
@@ -530,7 +530,7 @@ object Form1: TForm1
   end
   object ButtonSquareRoot: TButton
     Cursor = crHandPoint
-    Left = 208
+    Left = 225
     Height = 32
     Hint = 'Squareroute'
     Top = 176
@@ -550,7 +550,7 @@ object Form1: TForm1
   end
   object ButtonPercent: TButton
     Cursor = crHandPoint
-    Left = 208
+    Left = 225
     Height = 32
     Hint = 'Percent'
     Top = 208
@@ -570,7 +570,7 @@ object Form1: TForm1
   end
   object ButtonIverse: TButton
     Cursor = crHandPoint
-    Left = 208
+    Left = 225
     Height = 32
     Hint = 'Reciprocal'
     Top = 240
@@ -589,10 +589,10 @@ object Form1: TForm1
     TabOrder = 28
   end
   object Status: TLabel
-    Left = 28
+    Left = 45
     Height = 15
-    Top = 344
-    Width = 215
+    Top = 341
+    Width = 217
     Alignment = taCenter
     AutoSize = False
     Font.CharSet = ANSI_CHARSET
@@ -605,7 +605,7 @@ object Form1: TForm1
     ParentFont = False
   end
   object Panel2: TPanel
-    Left = 32
+    Left = 47
     Height = 21
     Top = 2
     Width = 215
@@ -615,11 +615,11 @@ object Form1: TForm1
     ClientWidth = 215
     TabOrder = 29
     object Memo: TEdit
-      Left = 0
+      Left = -1
       Height = 17
       Hint = 'Memory'
       Top = 1
-      Width = 213
+      Width = 215
       Alignment = taRightJustify
       AutoSize = False
       ParentShowHint = False

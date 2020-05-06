@@ -5,8 +5,17 @@ unit MainUnit;    //Taschenrechner
 interface
 
 uses
+  {$IFDEF UNIX}
+          cthreads, Unix,
+    {$IFDEF LCLCarbon}
+            MacOSAll,
+    {$ENDIF}
+  {$ENDIF}
+  {$IFDEF WINDOWS}
+          Windows,
+  {$ENDIF}
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  ExtCtrls, EditBtn, Menus, FileInfo, Messages, Windows, DefaultTranslator;
+  ExtCtrls, EditBtn, Menus, FileInfo, Messages, DefaultTranslator;
 
 const
   TOKENMAX = 1024;
@@ -220,7 +229,8 @@ begin
   Memo.Text     := '0';
   Status.Caption:= '';
   // Fensterüberschrift laden
-  Form1.Caption := rsCalculator + '  v' + Version.VersionStrings.Values['FileVersion'] + '  ' + Version.VersionStrings.Values['LegalCopyright'];
+  Form1.Caption := rsCalculator + '  v' + Version.VersionStrings.Values['FileVersion'];
+  Form1.Status.Caption := Version.VersionStrings.Values['LegalCopyright'];
   // Versions-Objekt freigeben
   Version.Free;
 end;
@@ -404,7 +414,7 @@ var
 begin
   // Statusmeldung löschen
   Status.Caption := '';
-  HideCaret(Eingabe.Handle);
+  //HideCaret(Eingabe.Handle);
   // Testen ob die Taste eine Funktion ist
   for i := 1 to Length(Func) do begin
       if (Key = Func[i].text) then begin

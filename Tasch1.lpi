@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="9"/>
+    <Version Value="11"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
@@ -18,11 +18,10 @@
     <VersionInfo>
       <UseVersionInfo Value="True"/>
       <AutoIncrementBuild Value="True"/>
-      <MajorVersionNr Value="1"/>
-      <BuildNr Value="7"/>
+      <MajorVersionNr Value="2"/>
       <Language Value="0807"/>
       <CharSet Value="04B0"/>
-      <StringTable Comments="Taschenrechner" FileDescription="Taschenrechner" InternalName="Tasch1" LegalCopyright="© 2018 unattended.ch" ProductName="Taschenrechner" ProductVersion="1.0"/>
+      <StringTable Comments="Taschenrechner" FileDescription="Taschenrechner" InternalName="TaschenRechner" LegalCopyright="© 2018-2020 unattended.ch" ProductName="Taschenrechner" ProductVersion="2.0"/>
     </VersionInfo>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -31,9 +30,10 @@
       <Version Value="2"/>
     </PublishOptions>
     <RunParams>
-      <local>
-        <FormatVersion Value="1"/>
-      </local>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
     </RunParams>
     <RequiredPackages Count="2">
       <Item1>
@@ -45,11 +45,11 @@
     </RequiredPackages>
     <Units Count="2">
       <Unit0>
-        <Filename Value="Tasch1.lpr"/>
+        <Filename Value="src\Tasch1.lpr"/>
         <IsPartOfProject Value="True"/>
       </Unit0>
       <Unit1>
-        <Filename Value="mainunit.pas"/>
+        <Filename Value="src\mainunit.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="Form1"/>
         <HasResources Value="True"/>
@@ -62,7 +62,7 @@
     <Version Value="11"/>
     <PathDelim Value="\"/>
     <Target>
-      <Filename Value="Tasch1"/>
+      <Filename Value="taschenrechner"/>
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>

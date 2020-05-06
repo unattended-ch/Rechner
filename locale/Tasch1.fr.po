@@ -244,3 +244,4 @@ msgstr ""
 msgctxt "tform1.resultat.text"
 msgid "1"
 msgstr ""
+
