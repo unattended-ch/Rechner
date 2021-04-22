@@ -4,4 +4,6 @@
 /*.cmd
 /backup/
 /lib/
+/res/*.exe
+/src/backup/
 /taschenrechner*
