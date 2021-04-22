@@ -1,6 +1,7 @@
 /TaschenRechner
 /TaschenRechner.exe
 /TaschenRechner.dbg
+/*.cmd
 /backup/
 /lib/
 /taschenrechner*
