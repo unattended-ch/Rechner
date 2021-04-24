@@ -10,5 +10,3 @@
        TaschenRechner is a calculator sample project.
 
        taschenrechner <Enter>
-
-### SYNOPSIS
