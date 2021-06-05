@@ -10,3 +10,8 @@
        TaschenRechner is a calculator sample project.
 
        taschenrechner <Enter>
+       
+### INFO
+
+       One key is not correctly programmed.
+       Did you find it ?
