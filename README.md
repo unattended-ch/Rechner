@@ -1,9 +1,10 @@
-### NAME
+<div align="center">
 
-       TaschenRechner
+## TaschenRechner
 
 ![Main Page](/res/main-window.png)
 
+</div>
 
 ### DESCRIPTION
 
