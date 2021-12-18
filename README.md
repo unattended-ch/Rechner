@@ -11,5 +11,8 @@
        TaschenRechner is a calculator sample project.
 
        taschenrechner <Enter>
+       
+### INFO
 
-### SYNOPSIS
+       One key is not correctly programmed.
+       Did you find it ?
